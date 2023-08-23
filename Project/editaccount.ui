@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditAccount</class>
+ <widget class="QDialog" name="EditAccount">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1494</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1494</width>
+    <height>618</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1494</width>
+    <height>618</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="BG">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>834</width>
+     <height>1200</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nTxt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>86</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="unTxt">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>260</y>
+     <width>148</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Username</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pTxt">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>360</y>
+     <width>136</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pnTxt">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>410</y>
+     <width>213</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Phone number</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cTxt">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>460</y>
+     <width>116</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Country</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lTxt">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>510</y>
+     <width>60</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Link</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bTxt">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>560</y>
+     <width>145</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Birth date</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="munTxt">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>310</y>
+     <width>333</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>‫‪Organisation‬‬Username</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>210</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usernameTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>260</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="orguserTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>310</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>360</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numberTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>410</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="countryTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>460</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="linkTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>510</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dateTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>560</y>
+     <width>451</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pic">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>43</y>
+     <width>161</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hTxt">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>440</y>
+     <width>187</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Header color</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ppTxt">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>500</y>
+     <width>183</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Profile photo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="photoBtnchoose">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>500</y>
+     <width>181</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Choose</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="biTxt">
+   <property name="geometry">
+    <rect>
+     <x>706</x>
+     <y>50</y>
+     <width>148</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Biography</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enterBtn">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>440</y>
+     <width>180</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>BusyCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Enter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="colorBtnchoose">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>440</y>
+     <width>181</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Choose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelBtn">
+   <property name="geometry">
+    <rect>
+     <x>1310</x>
+     <y>500</y>
+     <width>180</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="bioTxtedit">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>50</y>
+     <width>641</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="HeaderColor">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>851</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

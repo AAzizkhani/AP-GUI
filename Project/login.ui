@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QDialog" name="Login">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>722</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>722</width>
+    <height>423</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>722</width>
+    <height>423</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/img/LogoB</normaloff>:/img/LogoB</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">rgb (53, 132, 228);</string>
+  </property>
+  <widget class="QLabel" name="BG">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>722</width>
+     <height>423</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enterBtn">
+   <property name="geometry">
+    <rect>
+     <x>541</x>
+     <y>350</y>
+     <width>151</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>BusyCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Enter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seePassBtn">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>190</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-eye-96.png</normaloff>:/icon/icons8-eye-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>31</width>
+     <height>31</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordTxtBar">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>185</y>
+     <width>311</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="uTxt">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>104</y>
+     <width>148</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;font color = white&gt;Username</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usernameTxtBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>104</y>
+     <width>381</width>
+     <height>42</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pTxt">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>185</y>
+     <width>136</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;font color = white&gt;Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="unseePassBtn">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>190</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-invisible-96.png</normaloff>:/icon/icons8-invisible-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>31</width>
+     <height>31</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>usernameTxtBar</tabstop>
+  <tabstop>passwordTxtBar</tabstop>
+  <tabstop>enterBtn</tabstop>
+  <tabstop>seePassBtn</tabstop>
+ </tabstops>
+ <resources>
+  <include location="Resours/Recours.qrc"/>
+ </resources>
+ <connections/>
+</ui>

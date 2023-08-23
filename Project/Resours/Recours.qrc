@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>BG.jpg</file>
+        <file>photo_۲۰۲۳-۰۸-۰۷_۰۰-۲۱-۰۲_auto_x2.jpg</file>
+        <file>BG1.jpeg</file>
+        <file>BG2.jpeg</file>
+        <file>781-7812555_anonymous-mask-png-transparent-images-anonymous-icon-red.jpeg</file>
+        <file>DotORG_logo.svg.png</file>
+        <file>user-128.png</file>
+        <file>LogoW_auto_x2_colored_toned_light_ai.jpg</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>about</file>
+        <file>fUser</file>
+        <file>login</file>
+        <file>mUser</file>
+        <file>icons8-speech-bubble-48.png</file>
+        <file>icons8-chevron-right-48.png</file>
+        <file>setting</file>
+        <file>trash</file>
+        <file>icons8-administrator-male-96.png</file>
+        <file>icons8-america-96.png</file>
+        <file>icons8-bird-64.png</file>
+        <file>icons8-calendar-96.png</file>
+        <file>icons8-comments-96.png</file>
+        <file>icons8-edit-96.png</file>
+        <file>icons8-favorite-96.png</file>
+        <file>icons8-hashtag-96.png</file>
+        <file>icons8-link-96.png</file>
+        <file>icons8-power-off-button-96.png</file>
+        <file>icons8-robber-96.png</file>
+        <file>icons8-sent-96.png</file>
+        <file>icons8-user-account-96.png</file>
+        <file>icons8-plus-math-96.png</file>
+        <file>icons8-arrow-pointing-left-96.png</file>
+        <file>icons8-save-96.png</file>
+        <file>icons8-chevron-left-96.png</file>
+        <file>icons8-user-male-104.png</file>
+        <file>icons8-eye-96.png</file>
+        <file>icons8-invisible-96.png</file>
+        <file>icons8-evidence-96.png</file>
+    </qresource>
+</RCC>

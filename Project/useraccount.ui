@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserAccount</class>
+ <widget class="QDialog" name="UserAccount">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1172</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1172</width>
+    <height>533</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1172</width>
+    <height>533</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPlainTextEdit" name="tweetTxt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>1131</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="followersTxt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>261</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>FreeSerif</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Followers:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="settingBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-user-male-104.png</normaloff>:/icon/icons8-user-male-104.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>55</width>
+     <height>55</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="preBtn">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>320</y>
+     <width>180</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Previous</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-chevron-left-96.png</normaloff>:/icon/icons8-chevron-left-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="likeTxt">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>320</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>FreeSerif</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Likes:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BG">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1172</width>
+     <height>533</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextBtn">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>320</y>
+     <width>180</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-chevron-right-48.png</normaloff>:/icon/icons8-chevron-right-48.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitBtn">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>0</y>
+     <width>131</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-power-off-button-96.png</normaloff>:/icon/icons8-power-off-button-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userSearchBtn">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>470</y>
+     <width>180</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>BusyCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-america-96.png</normaloff>:/icon/icons8-america-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="likeBtn">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>320</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-favorite-96.png</normaloff>:/icon/icons8-favorite-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mentionBtn">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>320</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-comments-96.png</normaloff>:/icon/icons8-comments-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="followBtn">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>80</y>
+     <width>180</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Follow</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quteTweetBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>221</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Qute tweet</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-bird-64.png</normaloff>:/icon/icons8-bird-64.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="retweetBtn">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>320</y>
+     <width>180</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Retweet</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Resours/Recours.qrc">
+     <normaloff>:/icon/icons8-link-96.png</normaloff>:/icon/icons8-link-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="quteTweetTxt">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>380</y>
+     <width>411</width>
+     <height>138</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>BG</zorder>
+  <zorder>tweetTxt</zorder>
+  <zorder>followersTxt</zorder>
+  <zorder>settingBtn</zorder>
+  <zorder>preBtn</zorder>
+  <zorder>likeTxt</zorder>
+  <zorder>nextBtn</zorder>
+  <zorder>exitBtn</zorder>
+  <zorder>userSearchBtn</zorder>
+  <zorder>likeBtn</zorder>
+  <zorder>mentionBtn</zorder>
+  <zorder>followBtn</zorder>
+  <zorder>quteTweetBtn</zorder>
+  <zorder>retweetBtn</zorder>
+  <zorder>quteTweetTxt</zorder>
+ </widget>
+ <resources>
+  <include location="Resours/Recours.qrc"/>
+ </resources>
+ <connections/>
+</ui>
